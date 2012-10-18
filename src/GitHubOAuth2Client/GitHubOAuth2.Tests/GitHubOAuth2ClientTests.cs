@@ -42,5 +42,29 @@ namespace GitHubOAuth2.Tests
             // Assert
             Assert.Equal("github", gitHubOAuth2Client.ProviderName);
         }
+
+        [Fact]
+        public void VerifyAuthentication_()
+        {
+            // Arrange
+            var gitHubOAuth2Client = new GitHubOAuth2Client("something", "something");
+
+            // Act
+            gitHubOAuth2Client.VerifyAuthentication(null);
+
+            // Assert
+        }
+
+        [Fact]
+        public void RequestAuthentication_()
+        {
+            // Arrange
+            var gitHubOAuth2Client = new GitHubOAuth2Client("something", "something");
+
+            // Act
+            gitHubOAuth2Client.RequestAuthentication(null);
+
+            // Assert
+        }
     }
 }
