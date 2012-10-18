@@ -17,6 +17,8 @@ For now, simply:
   2. `<add key="GitHub.ClientSecret" value= "YourClientSecret" />`
 3. Add the following line to your AuthConfig.cs:
 
+    ```csharp
     OAuthWebSecurity.RegisterClient(new JohnnyCode.GitHubOAuth2Client(ConfigurationManager.AppSettings["GitHub.ClientId"], ConfigurationManager.AppSettings["GitHub.ClientSecret"]), "GitHub", null);
+    ```
 
 
