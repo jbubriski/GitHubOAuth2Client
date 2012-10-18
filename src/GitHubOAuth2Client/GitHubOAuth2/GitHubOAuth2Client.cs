@@ -8,7 +8,7 @@ using DotNetOpenAuth.Messaging;
 using Newtonsoft.Json;
 
 // Derived from http://aspnetwebstack.codeplex.com/SourceControl/changeset/view/fe17e7fcb5e2#src%2fMicrosoft.Web.WebPages.OAuth%2fOAuthWebSecurity.cs
-namespace JohnnyCode
+namespace JohnnyCode.GitHubOAuth2
 {
     public class GitHubOAuth2Client : OAuth2Client
     {
