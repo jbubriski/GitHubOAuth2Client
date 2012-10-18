@@ -3,7 +3,7 @@ GitHubOAuth2Client
 
 A GitHub OAuth 2 Client for ASP.NET MVC 4.
 
-Add this to your project and add 1 line of code and it will hook directly into the Membership Provider in MVC 4.
+Add this to your project and add 1 line of code and it will hook directly into the Membership Provider in ASP.NET MVC 4!
 
 ## Installation
 
