@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubOAuth2Client", "GitHubOAuth2Client\GitHubOAuth2Client.csproj", "{2C660855-60C8-4DB7-A740-B208D9C77A80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubOAuth2", "GitHubOAuth2\GitHubOAuth2.csproj", "{2C660855-60C8-4DB7-A740-B208D9C77A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubOAuth2.Tests", "GitHubOAuth2.Tests\GitHubOAuth2.Tests.csproj", "{EB8E1A7A-55C1-4EB7-A3F8-C01E022EAEC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{2C660855-60C8-4DB7-A740-B208D9C77A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C660855-60C8-4DB7-A740-B208D9C77A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C660855-60C8-4DB7-A740-B208D9C77A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8E1A7A-55C1-4EB7-A3F8-C01E022EAEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8E1A7A-55C1-4EB7-A3F8-C01E022EAEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8E1A7A-55C1-4EB7-A3F8-C01E022EAEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8E1A7A-55C1-4EB7-A3F8-C01E022EAEC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

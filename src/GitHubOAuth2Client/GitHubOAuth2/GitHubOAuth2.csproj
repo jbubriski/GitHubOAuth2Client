@@ -7,8 +7,8 @@
     <ProjectGuid>{2C660855-60C8-4DB7-A740-B208D9C77A80}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GitHubOAuth2Client</RootNamespace>
-    <AssemblyName>GitHubOAuth2Client</AssemblyName>
+    <RootNamespace>JohnnyCode.GitHubOAuth2</RootNamespace>
+    <AssemblyName>JohnnyCode.GitHubOAuth2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -78,7 +78,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="GitHubOAuth2Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
