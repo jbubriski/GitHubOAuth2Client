@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using JohnnyCode;
-using Xunit;
-
-namespace GitHubOAuth2.Tests
+﻿namespace GitHubOAuth2.Tests
 {
+    using System;
+    using JohnnyCode.GitHubOAuth2;
+    using Xunit;
+
     public class GitHubOAuth2ClientTests
     {
         [Fact]
