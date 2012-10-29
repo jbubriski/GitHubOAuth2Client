@@ -39,9 +39,19 @@
 
 <h2>Auto-magical-fantastical Installation</h2>
 
-<a href="https://nuget.org/packages/GitHubOAuth2Client/0.1.0.0">Use Nuget!</a>
+<p></p>
 
-<h2>Manual-idiotic-stupid Installation</h2>
+<p>Start with a default ASP.NET MVC 4 internet site project.</p>
+
+<p>Install this package <a href="https://nuget.org/packages/GitHubOAuth2Client/0.1.0.0">via Nuget</a>!
+
+<p>After the package install finishes just fill in the "GitHub.ClientId" and "GitHub.ClientSecret" App Settings in the web.config.</p>
+
+<p>The GitHub login service option should automatically appear on your /account/login page.</p>
+
+<h2>Manual Installation</h2>
+
+<p>I don't know why you would need this, but if you want to manually add the project, you are welcome to do so.  Currently there is no package for "just the dll".  Here is what you would need to do:</p>
 
 <ol>
 <li>Pull down the project, compile it, and add a reference to it.</li>
@@ -59,6 +69,8 @@
 </pre></div>
 </li>
 </ol>
+
+<p>Technically this route might be cleaner since you don't have a separate file for the package config.  But until I create a core Nuget package for this library, I would stick with the existing Nuget package.</p>
       </section>
     </div>
 
