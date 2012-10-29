@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using System.Web;
-using DotNetOpenAuth.AspNet.Clients;
-using DotNetOpenAuth.Messaging;
-using Newtonsoft.Json;
-
-// Derived from http://aspnetwebstack.codeplex.com/SourceControl/changeset/view/fe17e7fcb5e2#src%2fMicrosoft.Web.WebPages.OAuth%2fOAuthWebSecurity.cs
+﻿// Derived from http://aspnetwebstack.codeplex.com/SourceControl/changeset/view/fe17e7fcb5e2#src%2fMicrosoft.Web.WebPages.OAuth%2fOAuthWebSecurity.cs
 namespace JohnnyCode.GitHubOAuth2
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Net;
+    using System.Web;
+    using DotNetOpenAuth.AspNet.Clients;
+    using DotNetOpenAuth.Messaging;
+    using Newtonsoft.Json;
+
     public class GitHubOAuth2Client : OAuth2Client
     {
         #region Constants and Fields
