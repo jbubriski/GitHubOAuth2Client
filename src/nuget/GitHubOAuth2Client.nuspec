@@ -5,7 +5,7 @@
     <version>0.1.0.0</version>
     <authors>John Bubriski</authors>
     <owners>John Bubriski</owners>
-    <licenseUrl>https://github.com/jbubriski/GitHubOAuth2Client/license</licenseUrl>
+    <licenseUrl>https://raw.github.com/jbubriski/GitHubOAuth2Client/master/license.txt</licenseUrl>
     <projectUrl>https://github.com/jbubriski/GitHubOAuth2Client</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provides an OAuth2 Client for authenticating with GitHub.  Hooks into ASP.NET MVC 4 via DotNetOpenAuth.</description>
